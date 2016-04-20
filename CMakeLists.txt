@@ -19,4 +19,6 @@
 add_library (MyQuasarModule OBJECT
 	include/MyQuasarModuleClass.h
 	src/MyQuasarModuleClass.cpp
+	subModule/include/MyQuasarSubModuleClass.h
+	subModule/src/MyQuasarSubModuleClass.cpp
 )
