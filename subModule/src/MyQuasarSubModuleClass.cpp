@@ -10,7 +10,7 @@ MyQuasarSubModuleClass::MyQuasarSubModuleClass()
 	std::cout << "ctor MyQuasarSubModuleClass." << std::endl;
 }
 
-MyQuasarModuleClass::~MyQuasarModuleClass()
+MyQuasarSubModuleClass::~MyQuasarSubModuleClass()
 {
 	// FIXME: add component logging
 	std::cout << "dtor MyQuasarSubModuleClass." << std::endl;
