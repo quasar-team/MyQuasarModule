@@ -1,18 +1,18 @@
 /* © Copyright CERN, 2015. All rights not expressly granted are reserved. */
 
-#ifndef MYQUASARMODULECLASS_H_
-#define MYQUASARMODULECLASS_H_
+#ifndef MYQUASARSUBMODULECLASS_H_
+#define MYQUASARSUBMODULECLASS_H_
 
 namespace MyQuasarModule
 {
 
- class MyQuasarModuleClass
+ class MyQuasarSubModuleClass
  {
  public:
-	 MyQuasarModuleClass();
-	 ~MyQuasarModuleClass();
+	 MyQuasarSubModuleClass();
+	 ~MyQuasarSubModuleClass();
  };
 
 } // namespace
 
-#endif /* MYQUASARMODULECLASS_H_ */
+#endif /* MYQUASARSUBMODULECLASS_H_ */

@@ -1,17 +1,17 @@
-#include <MyQuasarModuleClass.h>
+#include <MyQuasarSubModuleClass.h>
 
 #include <iostream>
 
 using namespace MyQuasarModule;
 
-MyQuasarModuleClass::MyQuasarModuleClass()
+MyQuasarSubModuleClass::MyQuasarSubModuleClass()
 {
 	// FIXME: add component logging
-	std::cout << "ctor MyQuasarModuleClass." << std::endl;
+	std::cout << "ctor MyQuasarSubModuleClass." << std::endl;
 }
 
 MyQuasarModuleClass::~MyQuasarModuleClass()
 {
 	// FIXME: add component logging
-	std::cout << "dtor MyQuasarModuleClass." << std::endl;
+	std::cout << "dtor MyQuasarSubModuleClass." << std::endl;
 }
